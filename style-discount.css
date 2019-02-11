@@ -1,6 +1,6 @@
 .discount-container{
 	font-family: "Montserrat", sans-serif;
-	width: 18rem;
+	width: 19rem;
 	height: 17rem;
 	padding: 0px;
 	margin: 0px;
@@ -13,7 +13,7 @@
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	padding: 1.5rem 1rem 1.5rem;
+	padding: 1.5em 1em 1.5em;
 	background-color: #75a8f8;
 	color: white;
 	border: 1px solid #5492f8;
@@ -24,38 +24,38 @@
 
 .discount-overlay h1{
 	text-transform: uppercase;
-	font-size: 1.5rem;
+	font-size: 1.5em;
 	margin: 0;
-	padding: 0rem 0rem 0.2rem;
+	padding: 0em 0em 0.2em;
 }
 
 .discount-overlay div{
-	font-size: 4rem;
+	font-size: 4em;
 	font-weight: bold;
 }
 
 .discount-overlay h2{
 	margin:0;
 	font-weight: normal;
-	font-size: 1rem;
+	font-size: 1em;
 	text-transform: lowercase;
 }
 
 .discount-overlay p{
-	font-size: 0.8rem;
+	font-size: 0.7em;
 	color:	#325792 ;
 }
 
 .discount-overlay button{
-	width: 11.5rem;
-	height: 2rem;
+	width: 13em;
+	height: 2.5em;
 	text-transform: uppercase;
 	background-color: white;
 	border: 1px solid #5392f8;
-	border-radius: 0.17rem;
+	border-radius: 0.17em;
 	padding:0;
 	position: absolute;
-	bottom: 1.5rem;
+	bottom: 1.5em;
 }
 
 .discount-overlay:hover {
@@ -63,7 +63,7 @@
 }
 
 
-.link{
+.discount-overlay .link{
 	text-decoration: none;
 	color: #5492f8;
 }

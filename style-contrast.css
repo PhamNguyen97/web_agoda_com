@@ -1,0 +1,68 @@
+.contrast-container{
+	font-family: "Montserrat", sans-serif;
+	width: 19rem;
+	height: 17rem;
+	padding: 0px;
+	margin: 0px;
+	background-color: #feecf1; 
+	box-sizing: border-box;
+}
+
+.contrast-img{
+	background-image: url(https://picsum.photos/500);
+	background-size: cover;
+	background-position: center;
+	height: 35%;
+}
+
+.contrast-overlay{
+	height:17rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0px 0px 20px #00000033;
+	transition: background-color 0.3s;
+	background-color: #feecf100;
+	position: relative;
+}
+
+
+.contrast-overlay:hover{
+	background-color: #a28e9255;
+}
+
+.contrast-overlay h1{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0em 0em 0em;
+	margin: 5em 0em 0.4em;
+	color:	#0a4867;
+}
+
+.contrast-overlay p{
+	font-size: 0.7em;
+	color:	#0a4867;
+	text-align: center;
+	margin:0;
+	font-weight: bold;
+}
+
+.contrast-overlay button{
+	background-color: white;
+	width: 13em;
+	height: 2.5em;
+	border: 1px solid #ff567d;
+	border-radius: 0.17em;
+	padding:0;
+	position: absolute;
+	bottom: 1.5em;
+	margin:0;
+
+}
+.contrast-overlay .link{
+	text-decoration: none;
+	color:#ff567d;
+	text-transform: uppercase;
+	font-weight: bold;
+}
