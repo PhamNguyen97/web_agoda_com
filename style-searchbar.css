@@ -1,5 +1,28 @@
-.place-input{
-	background-color: black;
-	/*height: 100px;*/
-	/*width: 100px;*/
+.search-bar{
+	background-color: white;
+	display: flex;
+	box-shadow: 0px 0px 20px #00000033;
+	font-size: 1rem;
+	height: 4rem;
+	padding: 0.5rem;
+	align-items: center;
+	/*justify-content: center;*/
+}
+
+.search-bar .icon{
+	color: #555555ff;
+	font-size: 1.5em;
+}
+
+.search-bar .icon-container{
+	flex-basis: 4.25rem;
+	text-align: center;
+
+}
+
+.search-bar .input{
+	flex-grow: 1;
+	font-size: 1em;
+	padding: 1em 1em 1em 0em;
+	border: none;
 }
