@@ -1,0 +1,24 @@
+.room-type{
+	display: flex;
+	height: 4rem;
+	padding: 0.5rem;
+	box-shadow: 0px 0px 20px #00000033;
+	align-items: center;
+
+}
+.room-type .type{
+	flex-grow: 1;
+	font-size: 0.8em;
+}
+.room-type .num-room{
+	color: #888888ff;
+}
+.room-type .icon-container{
+	flex-basis: 4.25rem;
+	text-align: center;
+}
+
+.room-type .icon{
+	color: #555555ff;
+	font-size: 1.5em;
+}
