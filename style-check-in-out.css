@@ -1,0 +1,41 @@
+.check-in-out{
+	display: flex;
+	box-shadow: 0px 0px 20px #00000033;
+	height: 4rem;
+	padding: 0.5rem;
+}
+.check-in-out .icon-container{
+	flex-basis: 4.25em;
+	text-align: center;
+	/*align-items: center;*/
+	/*justify-content: center;*/
+}
+.check-in-out .icon{
+	font-size: 1.5em;
+	color: #555555ff;
+}
+.check-in{
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	/*box-sizing: border-box;*/
+}
+.check-out{
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	border-left: 1px solid #dddddddd;
+	/*box-sizing: content-box;*/
+}
+
+.date{
+	font-size: 0.8em;
+}
+.date .only-DoW{
+	color: #888888ff;
+}
+
+.check-in-out a{
+	text-decoration: none;
+	color: black;
+}
