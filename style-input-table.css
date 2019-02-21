@@ -1,0 +1,29 @@
+.input-table{
+	display: grid;
+	grid-template-areas: "searchbar searchbar searchbar" "checkinout checkinout checkinout" "roomtype roomtype searchbutton";
+	background-color: #eeeeee00;
+	/*padding: 0.5re;*/
+	/*margin : 0;*/
+}
+
+.input-table div{
+	/*border: 1px solid black;*/
+	/*background-color: white;*/
+}
+
+.search-bar{
+	grid-area: searchbar;
+}
+
+.check-in-out{
+	grid-area: checkinout;
+}
+
+.room-type{
+	grid-area: roomtype;
+}
+
+.search-button{
+	grid-area: searchbutton;
+}
+

@@ -2,7 +2,8 @@
 	display: flex;
 	height: 4rem;
 	padding: 0.5rem;
-	box-shadow: 0px 0px 20px #00000033;
+	margin: 0.25rem;
+	box-shadow: 5px 5px 10px #33333311;
 	align-items: center;
 
 }

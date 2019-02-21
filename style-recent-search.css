@@ -1,0 +1,68 @@
+.recent-search{
+	font-family: "Montserrat", sans-serif;
+	width: 19rem;
+	height: 17rem;
+	padding: 0px;
+	margin: 0.25rem 0rem;
+	/*background-color: #feecf1; */
+	background-image: url(https://picsum.photos/400
+);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+}
+
+.recent-search .overlay{
+	text-decoration: none;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	color: white;
+	/*background-color: black;*/
+	background: rgb(207,207,207);
+	background: linear-gradient(180deg, rgba(255,255,255,0.22592787114845936) 0%, rgba(0,0,8,0.7805497198879552) 89%, rgba(0,0,0,0.8841911764705882) 100%);
+	transition: background 0.3s;
+}
+.recent-search .head{
+	background-color: #5392f8;
+	padding: 0.5em 1em;
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+.recent-search .place{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.3em;
+	text-align: center;
+	padding-top: 1em;
+
+}
+
+.recent-search .time{
+	font-size: 0.8em;
+	padding-top: 2em;
+}
+
+.recent-search .room{
+	font-size: 0.8em;
+	padding-top: 0.5em;
+
+}
+.recent-search .get-back{
+	position: absolute;
+	bottom: 2em;
+	background-color: white;
+	border-radius: 0.25em;
+	padding: 0.5em 1em 0.5em 1em;
+	color: black;
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+
+
+.recent-search:hover  .overlay{
+	background-color:rgba(25,25,25,0.8841911764705882);
+}
+

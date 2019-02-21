@@ -1,0 +1,124 @@
+.discount-list{
+	font-family: "Montserrat", sans-serif;
+	width: 19rem;
+	height: 17rem;
+	padding: 0px;
+	margin: 0.25rem 0rem;
+	box-shadow: 0px 0px 20px #00000033; 
+	position: relative;
+}
+
+.discount-list .upper{
+	height:50%;
+	background-image: url(https://picsum.photos/400/200
+);
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*justify-content: center;*/
+	color: white;
+	text-transform: uppercase;
+}
+.discount-list .upper .overlay{
+	height:100%;
+	width: 100%;
+	position: relative;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #55555533;
+	transition: background 0.3s;
+}
+
+.discount-list:hover .discount-list-overlay{
+	background-color: #00000033;
+}
+.discount-list .upper .text{
+	font-size: 0.725em;
+	background-color: #5492f8;
+	padding: 0.5em 1.25em;
+	position: absolute;
+	top:0;
+}
+
+.discount-list .upper .discount-value{
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.discount-list .lower{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 50%;
+	box-sizing: border-box;
+}
+
+.discount-list .discribe{
+	/*flex-grow: 1;*/
+	height:50%;
+	/*justify-content: center;*/
+	display: flex;
+	align-items: center;
+	text-align: center;
+	font-size: 0.7em;
+	padding: 1em 3em 0em ;
+	color: #7a7a7a;
+	/*flex-shrink: 1;*/
+	/*line-height: 20px;*/
+	/*vertical-align: middle;*/
+	/*line-height: 100%;*/
+}
+.discount-list .end-time{
+	/*flex-grow: 1;*/
+	height: 50%;
+	display: flex;
+	/*flex-shrink: 1;*/
+	align-items: center;
+	/*padding: 2.5em;*/
+	color: #e23232;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.discount-list .circle{
+	height: 2.5em;
+	width: 2.5em;
+	background-color: white;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px #00000033;
+
+
+}
+
+.discount-list .left{
+	position: absolute;
+	top:7.25em;
+	left:-1.25em;
+	text-align: center;
+
+}
+
+.discount-list .circle {
+	display: flex;
+	/*line-height: 100%;*/
+	/*vertical-align: center;*/
+	align-items: center;
+	justify-content: center;
+	color: #777777;
+	/*height: 100%;*/
+	/*font-size: 1.em;*/
+}
+
+.discount-list .circle .icon{
+	font-size: 1.5em;
+}
+
+.discount-list .right{
+	position: absolute;
+	top:7.25em;
+	left:17.75em;
+	text-align: center;
+	justify-content: center;
+}

@@ -1,0 +1,22 @@
+.suggestion-items{
+	display: grid;
+	grid-template-areas: "recent-search discount" "contrast discount-list";
+	/*background-color: black;*/
+	width: 40rem;
+}
+
+.recent-search{
+	grid-area: recent-search;
+}
+
+.discount{
+	grid-area: discount;
+}
+
+.discount-list{
+	grid-area: discount-list;
+}
+
+.contrast {
+	grid-area: contrast;
+}
