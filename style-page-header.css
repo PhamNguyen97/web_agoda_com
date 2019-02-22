@@ -1,0 +1,207 @@
+
+.page-header {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	padding: 0.4em 1em 0.4em 0em;
+	/*justify-content: center;*/
+}
+
+.page-header .logo{
+	padding: 0em 1.5em 0em 1em;
+	border-right: 1px solid #33333333;
+}
+
+.page-header .text{
+	padding-left: 1.5em;
+	font-size: 0.75em;
+	font-weight: bold;
+	color: rgba(0,0,0,0.75);
+}
+.page-header .more{
+	flex-grow: 1;
+	display: flex;
+	/*font-size: 1em;*/
+	/*font-size: 2em;*/
+	/*background-color: black;*/
+}
+.page-header .more .circle{
+	height: 0.35em;
+	width: 0.35em;
+	background-color: rgba(0,0,0,0.75);
+	border-radius: 50%;
+	margin:0.2em;
+}
+
+
+.page-header .country{
+	padding:0;
+	margin:0;
+}
+
+.page-header .country img{
+	width:2em;
+	margin: 0.5em 0em 0em;
+
+}
+
+.page-header .sign-in{
+	text-transform: uppercase;
+	font-size: 0.85em;
+    color: rgb(83, 146, 249);
+   	padding: 0.7em 1.2em;
+}
+
+.page-header .sign-up{
+	text-transform: uppercase;
+	font-size: 0.85em;
+    color: rgb(83, 146, 249);
+	border: 1px solid rgb(83, 146, 249);
+	border-radius: 0.2em;
+	padding: 0.8em 0.7em;
+}
+
+.page-header .currency{
+	text-decoration: underline;
+	border-right: 1px solid #33333333;
+	padding: 1.3em 2em 1.3em;
+	font-size: 0.7em;
+}
+
+
+
+.page-header .mini-mode-bar{
+	position: relative;
+}
+
+.page-header .mini-mode-bar .icon{
+	font-size: 1.5em;
+}
+.page-header .mini-bar-content{
+	border:1px solid rgb(83, 146, 249);
+	background-color: white;
+	width: 23em;
+	display:none;
+	position: absolute;
+	/*top:0;*/
+	right:0;
+}
+.page-header .mini-mode-bar:hover .mini-bar-content{
+	display: block;
+}
+.page-header .mini-mode-bar .mini-text{
+	background-color: #f8f7f9;
+	color:#8a8a8a;
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 0.9em;
+	margin-bottom: 2em;
+	padding: 1.4em 2.5em;
+
+}
+/*.page-header .mini-mode-bar .icon{
+	text-align: right;
+}
+*/
+.page-header .mini-mode-bar *{
+	/*margin: 1em;*/
+	/*padding: 1em 2em 1em 2em;*/
+	text-align: center;
+	/*width: 10em;*/
+}
+.page-header .mini-mode-bar .sign-in{
+	border: 1px solid rgb(83, 146, 249);
+	/*width: 15em;*/
+	font-size: 1em;
+	margin: 0.5em 2em 0.5em;
+	display: flex;
+	padding: 0;
+	/*align-items: center;*/
+	justify-content: center;
+	/*height: 2em;*/
+}
+
+.page-header .mini-mode-bar .sign-in .overlay{
+	width: 60%;
+	height:100%;
+	background-color: rgba(83,146,249,0);
+	border-radius: 20%;
+	padding: 0.8em;
+	transition: all 0.3s;
+}
+
+.page-header .mini-mode-bar .sign-in:hover .overlay{
+	width: 100%;
+	background-color: rgba(83,146,249,255);
+	border-radius: 0;
+	color: white;
+}
+
+.page-header .mini-mode-bar .sign-up{
+	color: white;
+	background-color: rgb(83,146,249);
+	/*width: 15em;*/
+	font-size: 1em;
+	padding: 0;
+	margin: 0.5em 2em 1.5em;
+	display: flex;
+	justify-content: center;
+
+}
+
+.page-header .mini-mode-bar .sign-up .overlay{
+	width: 60%;
+	height:100%;
+	background-color: rgba(83,146,249,0);
+	border-radius: 20%;
+	padding: 0.8em;
+	transition: all 0.3s;
+}
+
+.page-header .mini-mode-bar .sign-up:hover .overlay{
+	background-color: #75a8f9;
+	width: 100%;
+	border-radius: 0;
+
+}
+.page-header .mini-mode-bar .country{
+	font-size: 1.25em;
+	display: flex;
+	margin: 0em 2em;
+	align-items: center;
+	padding-left: 0.5em;
+	/*transition: background-color */
+	/*background-color: black;*/
+}
+
+.page-header .mini-mode-bar .country:hover{
+	background-color: #f8f7f9;
+}
+.page-header .mini-mode-bar .country-text{
+	padding-left: 1.2em;
+}
+.page-header .mini-mode-bar .currency{
+	font-size: 1.25em;
+	display: flex;
+	text-align: left;
+	padding: 0.5rem;
+	margin: 0.5em 2em;
+	border:none;
+	text-decoration: none;
+	/*background-color: black;*/
+
+}
+
+.page-header .mini-mode-bar .currency:hover{
+	background-color: #f8f7f9;
+}
+
+.page-header .mini-mode-bar .currency .currency-text{
+	/*text-decoration: overline;*/
+	font-size: 0.9em;
+	padding-left: 3em;
+}
+
+.page-header .mini-mode-bar .currency .underline{
+	text-decoration: underline;
+}

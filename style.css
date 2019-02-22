@@ -1,3 +1,23 @@
 body{
 	font-family: "Montserrat", sans-serif;
+
+	background-color: #f79978;
+	padding:0;
+	margin: 0;
+	/*width: 100%;*/
+	min-width: 900px;
+
+}
+
+
+@media only screen and (max-width:900px){
+	.page-header .right-big{
+		display: none;
+	}
+}
+
+@media only screen and (min-width:900px){
+	.page-header .mini-mode-bar{
+		display:none;
+	}
 }

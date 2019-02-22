@@ -1,11 +1,15 @@
 .discount-list{
 	font-family: "Montserrat", sans-serif;
-	width: 19rem;
-	height: 17rem;
 	padding: 0px;
-	margin: 0.25rem 0rem;
+	margin: 0.5em;
 	box-shadow: 0px 0px 20px #00000033; 
 	position: relative;
+	box-sizing: border-box;
+	/*text-decoration: none;*/
+}
+
+.discount-list a{
+	text-decoration: none;
 }
 
 .discount-list .upper{
@@ -34,6 +38,7 @@
 	background-color: #00000033;
 }
 .discount-list .upper .text{
+	text-align: center;
 	font-size: 0.725em;
 	background-color: #5492f8;
 	padding: 0.5em 1.25em;
@@ -118,7 +123,7 @@
 .discount-list .right{
 	position: absolute;
 	top:7.25em;
-	left:17.75em;
+	right:-1.25em;
 	text-align: center;
 	justify-content: center;
 }

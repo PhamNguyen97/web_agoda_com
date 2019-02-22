@@ -1,10 +1,42 @@
 .suggestion-items{
 	display: grid;
-	grid-template-areas: "recent-search discount" "contrast discount-list";
+	grid-template-areas: "new-thing discovery" "recent-search discount" "contrast discount-list";
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 5% 47.5% 47.5%;
 	/*background-color: black;*/
 	width: 40rem;
+	height: 40rem;
 }
 
+.suggestion-items .new-thing{
+	grid-area: new-thing;
+	display: flex;
+	/*align-items: right;*/
+	justify-content: right;
+	text-align: right;
+	color: white;
+	padding-right: 1em;
+}
+
+.suggestion-items .new-thing .icon{
+	flex-grow:1;
+	padding-right:1em;
+}
+
+.suggestion-items .new-thing .fas{
+	padding-bottom: 0.5em;
+}
+
+.suggestion-items .discovery{
+	grid-area: discovery;
+	display: flex;
+	color: white;
+	padding-left: 1em;
+
+}
+.suggestion-items .discovery .icon{
+	padding-right: 1em;
+}
 .recent-search{
 	grid-area: recent-search;
 }

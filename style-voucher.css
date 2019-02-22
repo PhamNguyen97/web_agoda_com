@@ -1,0 +1,51 @@
+.voucher{
+	display: flex;
+	padding: 0.5em;
+	align-items: center;
+	/*position: relative;*/
+	background-color: #6b4c9f;
+}
+
+.voucher .image .circle{
+	width: 4em;
+	height: 4em;
+	border-radius: 50%;	
+	padding: 0;
+	background-image: url(https://picsum.photos/50);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.voucher .image{
+	padding: 0em 1em;
+}
+
+.voucher .big-text{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: white;
+	/*text-transform: uppercase;*/
+}
+.voucher a{
+	text-decoration: none;
+}
+
+.voucher .small-text{
+	color: #538fed;
+	padding-left: 1em;
+}
+.voucher .small-text:hover{
+	text-decoration: underline;
+}
+.voucher .copy-voucher{
+	/*position: absolute;*/
+	/*align-self: flex-start;*/
+	flex-shrink: 0;
+	right:0;
+	background-color: white;
+	color: #5392f9;
+	padding: 0.5em 2em;
+	border: 1px solid #5392f9;
+	border-radius: 0.2em;
+	font-weight: bold;
+}
