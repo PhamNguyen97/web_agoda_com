@@ -10,9 +10,11 @@
 	margin: 0.25em 0em;
 }
 
-.example .name-hotel{
+.example a{
 	color: #75a8f9;
+	text-decoration: none;
 }
+
 
 .example .discription{
 	padding: 1em 0em;

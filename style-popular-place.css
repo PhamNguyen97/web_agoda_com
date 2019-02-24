@@ -13,6 +13,7 @@
 	position: relative;
 	background: linear-gradient(180deg, rgba(255,255,255,0.22592787114845936) 0%, rgba(0,0,8,0.9094012605042017) 100%, rgba(0,0,0,0.8645833333333334) 100%);
 	transition: background-color 0.3s;
+	display: block;
 }
 
 .popular-place .overlay:hover{
