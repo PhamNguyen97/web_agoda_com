@@ -1,0 +1,37 @@
+.popular-places{
+	display: grid;
+	grid-template-areas: "title title title" "popular-place-1 popular-place-2 popular-place-3" "popular-place-4 popular-place-5 popular-place-6";
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: 1/3fr repeat(2,1fr);
+	width: 80%;
+	margin-left: 10%;
+}
+
+.popular-places .title{
+	grid-area: title;
+	font-size: 1.3em;
+	/*font-weight: bold;*/
+	color: rgba(0,0,0,.6);
+	text-align: center;
+	padding: 1em;
+	font-weight: bold;
+}
+
+.popular-places .popular-place-1{
+	grid-area: popular-place-1;
+}
+.popular-places .popular-place-2{
+	grid-area: popular-place-2;
+}
+.popular-places .popular-place-3{
+	grid-area: popular-place-3;
+}
+.popular-places .popular-place-4{
+	grid-area: popular-place-4;
+}
+.popular-places .popular-place-5{
+	grid-area: popular-place-5;
+}
+.popular-places .popular-place-6{
+	grid-area: popular-place-6;
+}

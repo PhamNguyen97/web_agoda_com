@@ -1,0 +1,36 @@
+.all-countries-cities{
+	display: flex;
+	color: rgba(0,0,0,0.75);
+
+}
+
+.all-countries-cities .big-column{
+	flex-grow: 1;
+}
+.all-countries-cities .content{
+	display: flex;
+	flex-direction: row;
+}
+
+.all-countries-cities .column{
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 10em;
+	flex-grow: 1;
+	padding: 0;
+	/*display: block;*/
+}
+
+.all-countries-cities a{
+	text-decoration: none;
+	color: rgba(0,0,0,0.75);
+	font-size: 0.7em;
+
+}
+
+.all-countries-cities .title{
+	padding-bottom: 1em;
+	font-size: 0.8em;
+}
+

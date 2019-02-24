@@ -1,0 +1,11 @@
+.examples{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.examples .title{
+	padding: 1em;
+}

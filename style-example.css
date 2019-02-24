@@ -1,0 +1,29 @@
+.example{
+	text-align: center;
+	background-color: white;
+	border:1px solid #11111111 ;
+	/*margin: 1em;*/
+	border-bottom: 0.2em solid #75a8f9;
+	font-size: 0.9em;
+	font-weight: bold;
+	padding: 2em ;
+	margin: 0.25em 0em;
+}
+
+.example .name-hotel{
+	color: #75a8f9;
+}
+
+.example .discription{
+	padding: 1em 0em;
+}
+
+.example .place{
+	font-size: 0.8em;
+	color: #11111199;
+}
+
+.example .person-name{
+	font-size: 0.8em;
+	color: #111111cc;
+}

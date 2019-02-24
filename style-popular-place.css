@@ -1,0 +1,36 @@
+.popular-place{
+	width: 96%;
+	height: 12em;
+	margin: 0.3em 2%;
+	background-image: url(https://picsum.photos/200
+);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.popular-place .overlay{
+	height: 100%;
+	position: relative;
+	background: linear-gradient(180deg, rgba(255,255,255,0.22592787114845936) 0%, rgba(0,0,8,0.9094012605042017) 100%, rgba(0,0,0,0.8645833333333334) 100%);
+	transition: background-color 0.3s;
+}
+
+.popular-place .overlay:hover{
+	background-color: rgba(0,0,0,.5);
+}
+.popular-place .content{
+	position: absolute;
+	bottom:0;
+	left:0;
+	color: white;
+	padding: 1.4em 1.3em;
+}
+
+.popular-place .country{
+	font-size: 0.8em;
+}
+
+.popular-place .name{
+	font-weight: bold;
+}
+
