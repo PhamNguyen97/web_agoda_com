@@ -6,7 +6,6 @@ body{
 	margin: 0;
 	/*width: 100%;*/
 	min-width: 900px;
-
 }
 
 
@@ -14,10 +13,86 @@ body{
 	.page-header .right-big{
 		display: none;
 	}
+
+	.part-two li{
+		padding: 2rem 15% 2rem;
+	}
+
 }
 
 @media only screen and (min-width:900px){
 	.page-header .mini-mode-bar{
 		display:none;
 	}
+
+	.part-two{
+		/*display: inline-block;*/
+	}
+
+	.part-two ul{
+		display: grid;
+		grid-template-areas: "input-table suggestion-items";
+		grid-template-columns: repeat(2,1fr);
+	}
+
+	.part-two li{
+		padding: 2rem 5% 2rem;
+	}
+}
+
+
+
+
+
+.part-two .back-ground-overlay{
+	background-image: url("https://cdn6.agoda.net/images/MVC/default/background_image/illustrations/skyline.png");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+.part-two{
+	background: linear-gradient(180deg, rgba(246,138,115,1) 0%, rgba(255,238,62,1) 100%);
+	/*width: 100%;*/
+}
+
+.part-two ul{
+	list-style: none;
+}
+
+/*.part-two li{
+	padding: 2rem 15% 2rem;
+}*/
+
+.part-two .input-table{
+	grid-area: input-table;
+}
+
+.part-two .suggestion-items{
+	grid-area: suggestion-items;
+
+}
+
+.part-three{
+	padding: 0rem 0rem 2rem;
+}
+
+.part-four{
+	width: 70%;
+	padding: 2rem 15% 2rem;
+}
+
+.part-five{
+	width: 70%;
+	padding: 2rem 15% 2rem;
+}
+
+.part-six .more-info{
+	width: 80%;
+	padding: 2rem 10% 2rem;
+}
+
+.part-seven{
+	width: 80%;
+	padding: 2rem 10% 2rem;
 }

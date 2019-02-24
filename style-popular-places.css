@@ -3,15 +3,13 @@
 	grid-template-areas: "title title title" "popular-place-1 popular-place-2 popular-place-3" "popular-place-4 popular-place-5 popular-place-6";
 	grid-template-columns: repeat(3,1fr);
 	grid-template-rows: 1/3fr repeat(2,1fr);
-	width: 80%;
-	margin-left: 10%;
 }
 
 .popular-places .title{
 	grid-area: title;
 	font-size: 1.3em;
 	/*font-weight: bold;*/
-	color: rgba(0,0,0,.6);
+	color: #fbbb83;
 	text-align: center;
 	padding: 1em;
 	font-weight: bold;

@@ -1,7 +1,11 @@
 .input-table{
 	display: grid;
-	grid-template-areas: "input-intro input-intro input-intro" "choices choices choices" "searchbar searchbar searchbar" "checkinout checkinout checkinout" "roomtype roomtype searchbutton";
-	background-color: #eeeeee00;
+	grid-template-areas: "input-intro input-intro input-intro"
+						"choices choices choices"
+						"searchbar searchbar searchbar" 
+						"checkinout checkinout checkinout" 
+						"roomtype roomtype searchbutton";
+	/*background-color: #eeeeee00;*/
 	color: white;
 }
 
@@ -9,6 +13,8 @@
 	grid-area: input-intro;
 	padding: 1em;
 	font-size: 0.9em;
+	/*display: block;*/
+	/*color: black;*/
 }
 .input-intro .intro-text{
 	text-transform: uppercase;

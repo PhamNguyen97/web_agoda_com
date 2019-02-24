@@ -20,6 +20,10 @@
 	padding: 0em 1em;
 }
 
+.voucher .text{
+	flex-grow: 1;
+}
+
 .voucher .big-text{
 	font-size: 1.2em;
 	font-weight: bold;
@@ -38,8 +42,6 @@
 	text-decoration: underline;
 }
 .voucher .copy-voucher{
-	/*position: absolute;*/
-	/*align-self: flex-start;*/
 	flex-shrink: 0;
 	right:0;
 	background-color: white;
@@ -48,4 +50,5 @@
 	border: 1px solid #5392f9;
 	border-radius: 0.2em;
 	font-weight: bold;
+	margin-right: 2em;
 }
